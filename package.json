@@ -1,0 +1,33 @@
+{
+  "name": "ts-jest-import-meta-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dospunk/ts-jest-import-meta-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dospunk/ts-jest-import-meta-bug/issues"
+  },
+  "homepage": "https://github.com/dospunk/ts-jest-import-meta-bug#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@types/jest": "^27.0.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs"
+    ]
+  }
+}
